@@ -1,0 +1,19 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Config\\": "config/",
+      "App\\": "app/",
+      "Database\\": "database/",
+      "Bootstrap\\": "bootstrap/",
+      "Helpers\\": "app/helpers/",
+      "Services\\": "app/services/"
+    },
+    "files": [
+      "./app/helpers/Functions.php"
+    ]
+  },
+  "require": {
+    "ext-pdo": "*",
+    "firebase/php-jwt": "^5.4"
+  }
+}
